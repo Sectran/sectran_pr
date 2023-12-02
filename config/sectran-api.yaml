@@ -1,0 +1,35 @@
+Name: sectran_admin
+Server:
+  Address: 0.0.0.0
+  Port: 10010
+ 
+Mysql:
+  Address: 127.0.0.1
+  Port: 3306
+  Db: sectran_admin
+  User: admin
+  Password: admin
+
+Redis:
+  Address: 127.0.0.1
+  Port: 3306
+  Password: ""
+
+
+# Mysql:
+# #  DataSource: root:Ryan@1218pass@tcp(127.0.0.1:3306)/sectran?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+#     DataSource: root:123456@tcp(127.0.0.1:3306)/sectran?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+# Secret: cs@sectran_key
+# ExpTime: 1800
+# Middlewares:
+#   Log: false
+#   Metrics: false
+#   Prometheus: false
+#   MaxConns: false
+#   Breaker: false
+#   Shedding: false
+#   Timeout: false
+#   Recover: true
+#   MaxBytes: false
+#   Gunzip: false
+
